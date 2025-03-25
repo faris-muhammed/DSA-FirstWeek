@@ -25,6 +25,7 @@ func (list *LinkedList) InsertAtEnd(value int) {
 	current.Next = newNode
 }
 
+// Remove duplicates in a sorted linked list
 func (list *LinkedList) RemoveDuplicates() {
 	current := list.Head
 	if current == nil {
